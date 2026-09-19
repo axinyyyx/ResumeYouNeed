@@ -621,7 +621,7 @@ const ResumeBuilder: React.FC = () => {
                   <input type="text" placeholder="Full Name" className="w-full p-3 border rounded-xl bg-slate-50 dark:bg-slate-900 dark:border-slate-700 dark:text-white" value={profile.fullName} onChange={e => setProfile({ ...profile, fullName: e.target.value })} />
                   <input type="email" placeholder="Email" className="w-full p-3 border rounded-xl bg-slate-50 dark:bg-slate-900 dark:border-slate-700 dark:text-white" value={profile.email} onChange={e => setProfile({ ...profile, email: e.target.value })} />
                   <input type="text" placeholder="Phone" className="w-full p-3 border rounded-xl bg-slate-50 dark:bg-slate-900 dark:border-slate-700 dark:text-white" value={profile.phone} onChange={e => setProfile({ ...profile, phone: e.target.value })} />
-                  <input type="text" placeholder="LinkedIn URL" className="w-full p-3 border rounded-xl bg-slate-50 dark:bg-slate-900 dark:border-slate-700 dark:text-white" value={profile.linkedin} onChange={e => setProfile({ ...profile, linkedin: e.target.value })} />
+                  <input type="text" placeholder="LinkedIn URL or Username" className="w-full p-3 border rounded-xl bg-slate-50 dark:bg-slate-900 dark:border-slate-700 dark:text-white" value={profile.linkedin} onChange={e => setProfile({ ...profile, linkedin: e.target.value })} />
                 </div>
                 <textarea placeholder="Summary (Brief overview of your career)" className="w-full p-3 border rounded-xl bg-slate-50 dark:bg-slate-900 dark:border-slate-700 h-24 dark:text-white" value={profile.summary} onChange={e => setProfile({ ...profile, summary: e.target.value })} />
               </div>
